@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <description>Check for overdue tasks</description>
+        <label_cache>[{"name":"386a531b-1390-4c44-9d2c-5c1e730fa9e4.property_value","label":"1➛property_value","type":"string","base_type":"string"},{"name":"1fe72727-f096-4f63-901e-5a685970f3b6.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"6ecdfe54-e669-4b4b-b8f1-b44eb4cd5b9c.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"a4e9882d-e001-42b2-ac90-f43d60488f1f.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"a4e9882d-e001-42b2-ac90-f43d60488f1f.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"a4e9882d-e001-42b2-ac90-f43d60488f1f.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <name>overdue tasks</name>
+        <remote_trigger_id/>
+        <show_draft_actions>false</show_draft_actions>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-08-15 14:16:51</sys_created_on>
+        <sys_id>24f0f69ddb9b3300aee2da75ca9619c5</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>overdue tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_24f0f69ddb9b3300aee2da75ca9619c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-08-15 16:44:27</sys_updated_on>
+    </sys_hub_flow>
+</record_update>
